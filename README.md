@@ -1,4 +1,3 @@
-# simple-blog-layout-bootstrap-5
 #  Simple Blog Layout (Bootstrap 5)
 
 This project is a clean and responsive **blog layout** built using **HTML + Bootstrap 5**.
