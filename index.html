@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Blog Layout</title>
+
+  <!-- Bootstrap 5 CDN -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Blog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-light py-5 text-center">
+    <div class="container">
+      <h1 class="fw-bold">Welcome to My Blog</h1>
+      <p class="text-muted">Simple & clean layout using Bootstrap 5</p>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container my-5">
+    <div class="row">
+
+      <!-- Blog Posts -->
+      <div class="col-md-8">
+        
+        <!-- Blog Card 1 -->
+        <div class="card mb-4">
+          <img src="https://via.placeholder.com/800x300" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Blog Title One</h4>
+            <p class="card-text text-muted">Short description about the blog post.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+
+        <!-- Blog Card 2 -->
+        <div class="card mb-4">
+          <img src="https://via.placeholder.com/800x300" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Blog Title Two</h4>
+            <p class="card-text text-muted">Another short and clean description.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Sidebar -->
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <div class="card-header fw-bold">About Me</div>
+          <div class="card-body">
+            <p>Hello! I'm Jesika, a front-end developer learning and building projects.</p>
+          </div>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-header fw-bold">Categories</div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Web Development</li>
+            <li class="list-group-item">JavaScript</li>
+            <li class="list-group-item">Frontend Tips</li>
+            <li class="list-group-item">Projects</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-3 text-center">
+    <p class="mb-0">© 2025 My Blog — All Rights Reserved</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+  </script>
+</body>
+</html>
